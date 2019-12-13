@@ -11,7 +11,7 @@ fn main() {
     formatted_print("B", part2(read_file("input")));
 }
 
-fn read_file(file_name: &str) -> String {
+pub fn read_file(file_name: &str) -> String {
     return std::fs::read_to_string(file_name).expect(format!("File {} not found", file_name).as_str());
 }
 
