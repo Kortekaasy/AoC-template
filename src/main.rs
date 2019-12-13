@@ -1,3 +1,5 @@
+// ========================= Challenge Logic ============================
+
 pub fn part1(input: String) -> String {
     format!("Unimplemented!")
 }
@@ -5,6 +7,8 @@ pub fn part1(input: String) -> String {
 pub fn part2(input: String) -> String {
     format!("Unimplemented!")
 }
+
+// =========================== Main Function ============================
 
 fn main() {
     formatted_print("A", part1(read_file("input")));
