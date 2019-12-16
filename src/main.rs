@@ -9,7 +9,7 @@ pub fn part2(input: String) -> String {
 }
 
 // =========================== Main Function ============================
-
+#[allow(dead_code)]
 fn main() {
     formatted_print("A", part1(read_file("input")));
     formatted_print("B", part2(read_file("input")));
